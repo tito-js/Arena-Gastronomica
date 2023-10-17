@@ -11,10 +11,35 @@ datasource db {
   directUrl = env("POSTGRES_URL_NON_POOLING") 
 }
 
-model Produto {
-  id Int @id @default(autoincrement())
-  nome String
-  preco Decimal
+model Category {
+  id          Int       @id @default(autoincrement())
+  createdAt   DateTime  @default(now())
+  title       String
+  desc        String
+  color       String
+  img         String
+  slug        String    @unique
+  products    Product[]
+}
 
-  @@map("produtos")
+model Product{
+  id          Int       @id @default(autoincrement())
+  createdAt   DateTime  @default(now())
+  title       String
+  desc        String
+  img         String?
+  price       Decimal
+  isFeatured  Boolean    @default(false)
+  options     Json[]
+  category    Category  @relation(fields: [catSlug], references: [slug])
+  catSlug     String
+}
+
+model Order {
+  id          Int       @id @default(autoincrement())
+  createdAt   DateTime  @default(now())
+  price       Decimal
+  products    Json[]
+  status      String
+  intent_id   String?    @unique
 }
