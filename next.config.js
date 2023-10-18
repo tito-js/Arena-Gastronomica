@@ -1,13 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    async rewrites() {
-        return [
-            {
-                source: '/api/(.*)',
-                destination: '/api',
-            },
-        ]
+    images: {
+      domains: ["res.cloudinary.com"],
     },
-}
-
-module.exports = nextConfig
+  };
+  
+  module.exports = nextConfig;
