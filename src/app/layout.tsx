@@ -1,9 +1,10 @@
+
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Notification from '@/Componentes/Notification'
-import NavBar from '@/Componentes/NavBar'
-import Rodape from '@/Componentes/Rodape'
+import Notification from '@/components/Notification'
+import NavBar from '@/components/NavBar'
+import Rodape from '@/components/Rodape'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body className={inter.className}>
         <Notification/>
         <NavBar/>
