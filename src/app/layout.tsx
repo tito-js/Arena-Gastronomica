@@ -1,9 +1,10 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Notification from '@/Componentes/Notification'
-import NavBar from '@/Componentes/NavBar'
-import Rodape from '@/Componentes/Rodape'
+import Notification from '@/components/Notification'
+import NavBar from '@/components/NavBar'
+import Rodape from '@/components/Footer'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +24,7 @@ export default function RootLayout({
         <Notification/>
         <NavBar/>
         {children}
-         <Rodape/>
+         <Footer/>
       </body>
     </html>
   )

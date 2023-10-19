@@ -1,9 +1,9 @@
 import React from "react";
 
- const Rodape = () =>{
+ const Footer = () =>{
     return(
         <div>Rodape</div>
     )
  }
 
- export default Rodape;
+ export default Footer;
