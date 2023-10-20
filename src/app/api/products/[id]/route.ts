@@ -48,12 +48,12 @@ export const DELETE = async (
     } catch (err) {
       console.log(err);
       return new NextResponse(
-        JSON.stringify({ message: "Something went wrong!" }),
+        JSON.stringify({ message: "Algo deu errado!" }),
         { status: 500 }
       );
     }
   }
-  return new NextResponse(JSON.stringify({ message: "You are not allowed!" }), {
+  return new NextResponse(JSON.stringify({ message: "Você não está autenticado" }), {
     status: 403,
   });
 };
