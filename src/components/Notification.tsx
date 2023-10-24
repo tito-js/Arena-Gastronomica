@@ -1,13 +1,10 @@
-import React from "react";
+import React from 'react'
 
- const Notification = () =>{
-    return(
-<<<<<<< HEAD
-        <div className='h-12 bg-red-500 text-white'>Delivery  Grátis na Primeira Compra </div>
-=======
-        <div className='h-12 bg-red-500 text-white px-4 flex items-center justify-center'>Delivery  Grátis na Primeira Compra </div>
->>>>>>> d13104061d5acc3825bb73a00fbd0db078cdbbce
-    )
- }
+const Notification = () => {
+  return (
+    <div className='h-12 bg-green-500 text-white px-4 flex items-center justify-center text-center text-sm md:text-base cursor-pointer'>Delivery Grátis na Primeira compra!!
+    </div>
+  )
+}
 
- export default Notification;
+export default Notification
