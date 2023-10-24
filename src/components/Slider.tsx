@@ -6,17 +6,17 @@ const data = [
   {
     id: 1,
     title: "Bebidas Refrescantes Coquetel de Diversos sabores",
-    image: "/Coquetel.png",
+    image: "/BEBIDAS.png",
   },
   {
     id: 2,
     title: "Bolo de Chocolate Favorito do nosso Vinicius JR  ",
-    image: "/BoloChoc.png",
+    image: "/Bolos.png",
   },
   {
     id: 3,
     title: "Deliciosa Moqueca de Peixe, tradicional do Nordeste do nosso País. ",
-    image: "/Moqueca.png",
+    image: "/Moqueca2.png",
   },
 ];
 
