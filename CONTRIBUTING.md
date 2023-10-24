@@ -12,7 +12,7 @@ Obrigado por considerar contribuir para este projeto! 😊
 
 ## Guia de Estilo
 
-- **Estilo de Código**: [Inclua aqui as diretrizes de estilo de código que os contribuidores devem seguir.]
+- **Estilo de Código**: [https://github.com/tito-js/Arena-Gastronomica/blob/320ae5ac0379504ffac8480edca0216050f76cfd/CODE_OF_CONDUCT.md]
 
 ## Reportando Problemas
 
@@ -20,5 +20,4 @@ Se você encontrar algum problema ou tiver uma sugestão, por favor abra um issu
 
 ## License
 
-Ao contribuir, você concorda que as suas contribuições serão licenciadas sob a [incluir licença aqui].
-
+Ao contribuir, você concorda que as suas contribuições serão licenciadas sob a [https://github.com/tito-js/Arena-Gastronomica/blob/af46f6a55ccd983c371e2e2d0cf0421ef1c582bd/LICENSE].
