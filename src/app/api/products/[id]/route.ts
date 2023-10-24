@@ -26,7 +26,7 @@ export const GET = async (
   }
 };
 
-// DELETAR UM UNICO PRODUTO
+// DELETAR UM PRODUTO
 export const DELETE = async (
   req: NextRequest,
   { params }: { params: { id: string } }

@@ -1,7 +1,7 @@
 import { prisma } from "@/utils/connect";
 import { NextRequest, NextResponse } from "next/server";
 
-// PEGAR TODOS OS PEDIDOS
+// PEGAR TODOS OS PRODUTOS
 export const GET = async (req: NextRequest) => {
   const { searchParams } = new URL(req.url);
   const cat = searchParams.get("cat");
@@ -21,6 +21,8 @@ export const GET = async (req: NextRequest) => {
     );
   }
 };
+
+// CRIAR PRODUTOS
 export const POST = async (req: NextRequest) => {
   try {
     const body = await req.json();
