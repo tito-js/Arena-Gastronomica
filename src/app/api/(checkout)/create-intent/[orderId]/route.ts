@@ -15,15 +15,19 @@ export async function POST(
     },
   });
 
-  if (order) {
-    const paymentIntent = await stripe.paymentIntents.create({
+  let paymentIntent; 
+
+  if (order && stripe && typeof order.price === 'number') {
+    paymentIntent = await stripe.paymentIntents.create({
       amount: order.price * 100,
       currency: "brl",
       automatic_payment_methods: {
         enabled: true,
       },
     });
+  }
 
+  if (paymentIntent) {
     await prisma.order.update({
       where: {
         id: orderId,
@@ -36,6 +40,7 @@ export async function POST(
       { status: 200 }
     );
   }
+
   return new NextResponse(
     JSON.stringify({ message:"Pedido não existe!" }),
     { status: 404 }
