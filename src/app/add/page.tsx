@@ -122,7 +122,7 @@ const AddPage = () => {
           />
         </div>
         <div className="w-full flex flex-col gap-2 ">
-          <label className="text-sm">Titlo</label>
+          <label className="text-sm">Titulo</label>
           <input
             className="ring-1 ring-yellow-50 p-4 rounded-sm placeholder:text-yellow-50 outline-none"
             type="text"
