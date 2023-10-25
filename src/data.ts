@@ -13,9 +13,9 @@ export const featuredProducts: Products = [
   {
     id: 1,
     title: "Arroz Carreteiro",
-    desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
+    desc: "Um prato tradicional do Sul do nosso país, o Arroz Carreteiro já conquistou todas as regiões. O sabor da carne seca, bacon e calabresa, junto à cor dos pimentões vermelhos, temperados com cebola, tomate e cheiro verde, trazem uma personalidade única quando combinados à um arroz soltinho",
     img: "/temporary/ARROZ.png",
-    price: 23.0,
+    price: 32.0,
     options: [
       {
         title: "Small",
@@ -34,9 +34,9 @@ export const featuredProducts: Products = [
   {
     id: 2,
     title: "Feijoada",
-    desc: "Indulge in smoky goodness with a flame-grilled beef patty, topped with crispy bacon, melted cheddar cheese, caramelized onions, and a smattering of tangy BBQ sauce.",
+    desc: "É quase impossível encontrar um brasileiro que não seja apaixonado por esse prato tão típico da culinária brasileira. Combinamos os melhores ingredientes para dar um toque de sabor especial, como bacon, linguiça paio, calabresa, carne seca e lombo suíno. O feijão preto cozido no seu ponto mais macio leva folha de louro para dar aquele toque de sabor indispensável.",
     img: "/temporary/Feijoada.png",
-    price: 32.0,
+    price: 40.0,
     options: [
       {
         title: "Small",
@@ -55,9 +55,9 @@ export const featuredProducts: Products = [
   {
     id: 3,
     title: "Strogonoff de Frango",
-    desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
+    desc: "O Strogonoff de Frango é uma versão deliciosa do tradicional prato da culinária russa. Preparado com creme de leite e especiarias que completam o sabor inconfundível dos camarões, esta receita conquista paladares aguçados.",
     img: "/temporary/Strogonoff.png",
-    price: 24.9,
+    price: 35.0,
     options: [
       {
         title: "Small",
@@ -76,9 +76,9 @@ export const featuredProducts: Products = [
   {
     id: 4,
     title: "Escondidinho",
-    desc: "Ignite your taste buds with this fiery pasta creation, combining penne in a spicy tomato sauce infused with garlic, red chili flakes, and fresh basil for the ultimate comfort food experience.",
+    desc: "Esse delicioso escondidinho combina batata inglesa, batata baroa e mandioca com a cremosidade do requeijão para fazer um purê que cobre a carne moída temperada cheia de sabores caseiros como cebola, tomate e cheiro verde. Uma deliciosa casquinha de queijo parmesão gratinado da o toque final à receita.",
     img: "/temporary/Escondidinho.png",
-    price: 26.9,
+    price: 27.3,
     options: [
       {
         title: "Small",
@@ -97,9 +97,9 @@ export const featuredProducts: Products = [
   {
     id: 5,
     title: "Pastel",
-    desc: "Ignite your taste buds with a fiery kick! This burger features a succulent beef patty, fiery jalapeños, pepper jack cheese, and a zesty chipotle mayo sauce , and all the classic fixings on a toasted bun.",
+    desc: "A melhor porção de pastéis crocantes e sem ar que você irá comer, venha provar não vai se arrepender!.",
     img: "/temporary/PatelV.png",
-    price: 29.9,
+    price: 23.0,
     options: [
       {
         title: "Small",
@@ -118,9 +118,9 @@ export const featuredProducts: Products = [
   {
     id: 6,
     title: "Açaí",
-    desc: "A timeless favorite with a twist, showcasing a thin crust topped with sweet tomatoes, fresh basil, creamy mozzarella, and a drizzle of extra virgin olive oil, fresh arugula, and a drizzle of balsamic glaze.",
+    desc: "Temos copos prontos e Self Service para você comer a vontade.",
     img: "/temporary/Acai.png",
-    price: 24.9,
+    price: 20.0,
     options: [
       {
         title: "Small",
@@ -139,9 +139,9 @@ export const featuredProducts: Products = [
   {
     id: 7,
     title: "Torta Romeu e Julietta",
-    desc: "A garlic lover's delight, featuring linguine smothered in a creamy Parmesan sauce, infused with garlic and garnished with chopped parsley, bell peppers, and cherry tomatoes.",
-    img: "/temporary/MaridoMulher.png",
-    price: 28.9,
+    desc: "Você gosta de receita agridoce? Então tenho certeza que você vai adorar essa maravilha de torta Romeu e Julieta que tem o sabor de uma das sobremesas mais deliciosas e tradicionais do Brasil",
+    img: "/temporary/romeuejulieta.jpg",
+    price: 25.0,
     options: [
       {
         title: "Small",
@@ -160,9 +160,9 @@ export const featuredProducts: Products = [
   {
     id: 8,
     title: "Canjica",
-    desc: "Embark on a culinary journey with this Mediterranean-inspired creation, featuring zesty feta cheese, Kalamata olives, sun-dried tomatoes, and a sprinkle of oregano.",
+    desc: "Canjica, como conhecida no sul e sudeste, ou mugunzá como é conhecida no norte e nordeste este preparo é feito a base de milho branco cozido com leite e açucar. Na receita da Arena Gatronômica o milho macio com o leite adoçado na medida foi preparado pensando na época mais gostosa do ano, a festa junina! ",
     img: "/temporary/ArrozDoce.png",
-    price: 32.9,
+    price: 7.5,
     options: [
       {
         title: "Small",
@@ -181,9 +181,9 @@ export const featuredProducts: Products = [
   {
     id: 9,
     title: "Churros",
-    desc: "Experience a taste of the tropics with a juicy beef patty glazed in tangy teriyaki sauce, topped with grilled pineapple, crispy bacon, and fresh lettuce, and all the classic fixings on a toasted bun.",
+    desc: "Porção de churros de diversos sabores para você se deliciar.",
     img: "/temporary/Churros.png",
-    price: 29.9,
+    price: 15.0,
     options: [
       {
         title: "Small",
@@ -369,9 +369,9 @@ export const menu: Menu = [
   {
     id: 1,
     slug: "Pratos",
-    title: "Pratos ",
+    title: "Pratos",
     desc: "Menu Típico Brasileiro com comida caseira de todas as regiões do Brasil",
-    img: "/temporary/m1.png",
+    img: "/temporary/prato.jpg",
     color: "blue",
   },
   {
@@ -379,15 +379,15 @@ export const menu: Menu = [
     slug: "Sobremesas",
     title: "Sobremesas",
     desc: "Sobremesas com o Toque do Brasil, mais Doce que vencer da Argentina.",
-    img: "/temporary/m2.png",
-    color: "green",
+    img: "/temporary/pudim.jpg",
+    color: "yellow",
   },
   {
     id: 3,
     slug: "Bebidas",
     title: "Bebidas",
     desc: "Coquetéis feitos na Hora, Refrigerante e Suco para toda Família. Vai uma bebida pro Jogo?" ,
-    img: "/temporary/m3.png",
+    img: "/temporary/bebidar.png",
     color: "blue",
   },
 ];
