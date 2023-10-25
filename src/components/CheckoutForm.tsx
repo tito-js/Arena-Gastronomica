@@ -33,22 +33,22 @@ const CheckoutForm = () => {
     stripe.retrievePaymentIntent(clientSecret).then(({ paymentIntent }) => {
       switch (paymentIntent?.status) {
         case "succeeded":
-          setMessage("Payment succeeded!");
+          setMessage("Pagamento bem-sucedido!");
           break;
         case "processing":
-          setMessage("Your payment is processing.");
+          setMessage("Seu pagamento está sendo processado.");
           break;
         case "requires_payment_method":
-          setMessage("Your payment was not successful, please try again.");
+          setMessage("Seu pagamento não foi bem-sucedido, tente novamente.");
           break;
         default:
-          setMessage("Something went wrong.");
+          setMessage("Algo deu errado.");
           break;
       }
     });
   }, [stripe]);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     if (!stripe || !elements) {
@@ -73,9 +73,9 @@ const CheckoutForm = () => {
     // be redirected to an intermediate site first to authorize the payment, then
     // redirected to the `return_url`.
     if (error.type === "card_error" || error.type === "validation_error") {
-      setMessage(error.message || "Something went wrong!");
+      setMessage(error.message || "Algo deu errado!");
     } else {
-      setMessage("An unexpected error occurred.");
+      setMessage("Um erro inesperado ocorreu.");
     }
 
     setIsLoading(false);
