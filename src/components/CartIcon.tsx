@@ -32,7 +32,7 @@ const CartIcon = () => {
         {session?.user.isAdmin ? (
           <button className="p-1 bg-green-500 text-white rounded-md">Adicionar produto</button>
         ) : (
-          <span>Cart ({totalItems})</span>
+          <span>Carrinho ({totalItems})</span>
         )}
       </div>
     </Link>
