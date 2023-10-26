@@ -207,9 +207,9 @@ export const featuredProducts: Products = [
 export const pizzas: Products = [
   {
     id: 1,
-    title: "Sicilian",
+    title: "Strogonoff de Frango",
     desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
-    img: "/temporary/p1.png",
+    img: "/temporary/STROGONOFF DE FRANGO.jpg",
     price: 24.9,
     options: [
       {
