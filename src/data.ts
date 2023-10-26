@@ -228,10 +228,10 @@ export const pizzas: Products = [
   },
   {
     id: 2,
-    title: "Mediterranean Delight",
-    desc: "Embark on a culinary journey with this Mediterranean-inspired creation, featuring zesty feta cheese, Kalamata olives, sun-dried tomatoes, and a sprinkle of oregano.",
-    img: "/temporary/p8.png",
-    price: 32.9,
+    title: "Feijoada",
+    desc: "É quase impossível encontrar um brasileiro que não seja apaixonado por esse prato tão típico da culinária brasileira. Combinamos os melhores ingredientes para dar um toque de sabor especial, como bacon, linguiça paio, calabresa, carne seca e lombo suíno. O feijão preto cozido no seu ponto mais macio leva folha de louro para dar aquele toque de sabor indispensável.",
+    img: "/temporary/Feijoada.png",
+    price: 40.0,
     options: [
       {
         title: "Small",
