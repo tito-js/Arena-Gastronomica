@@ -208,7 +208,7 @@ export const pizzas: Products = [
   {
     id: 1,
     title: "Strogonoff de Frango",
-    desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
+    desc: ".",
     img: "/temporary/STROGONOFF DE FRANGO.jpg",
     price: 24.9,
     options: [
@@ -228,9 +228,9 @@ export const pizzas: Products = [
   },
   {
     id: 2,
-    title: "Mediterranean Delight",
-    desc: "Embark on a culinary journey with this Mediterranean-inspired creation, featuring zesty feta cheese, Kalamata olives, sun-dried tomatoes, and a sprinkle of oregano.",
-    img: "/temporary/p8.png",
+    title: "Prato Feito",
+    desc: ".",
+    img: "/temporary/PRATO FEITO.jpg",
     price: 32.9,
     options: [
       {
@@ -249,9 +249,9 @@ export const pizzas: Products = [
   },
   {
     id: 3,
-    title: "Bella Napoli",
-    desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
-    img: "/temporary/p3.png",
+    title: " Moqueca de Peixe",
+    desc: ".",
+    img: "/temporary/MOQUECA DE PEIXE.jpg",
     price: 26.9,
     options: [
       {
@@ -270,9 +270,9 @@ export const pizzas: Products = [
   },
   {
     id: 4,
-    title: "Pesto Primavera",
-    desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
-    img: "/temporary/p10.png",
+    title: "Macarronada",
+    desc: ".",
+    img: "/temporary/MACARRONADA.jpg",
     price: 28.9,
     options: [
       {
@@ -291,9 +291,9 @@ export const pizzas: Products = [
   },
   {
     id: 5,
-    title: "Veggie Supreme",
-    desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
-    img: "/temporary/p11.png",
+    title: "Arroz Carreteiro",
+    desc: ".",
+    img: "/temporary/ARROZ CARRETEIROO.jpg",
     price: 24.9,
     options: [
       {
@@ -312,9 +312,9 @@ export const pizzas: Products = [
   },
   {
     id: 6,
-    title: "Four Cheese Fantasy",
-    desc: "Experience pure cheesy bliss with a melty blend of mozzarella, cheddar, provolone, and Parmesan cheeses, creating a rich and indulgent pizza experience.",
-    img: "/temporary/p12.png",
+    title: "Feijão Tropeiro",
+    desc: ".",
+    img: "/temporary/FEIJÃO TROPEIRO.jpg",
     price: 22.9,
     options: [
       {
@@ -386,7 +386,7 @@ export const menu: Menu = [
     id: 3,
     slug: "Bebidas",
     title: "Bebidas",
-    desc: "Coquetéis feitos na Hora, Refrigerante e Suco para toda Família. Vai uma bebida pro Jogo?" ,
+    desc: "Coquetéis feitos na Hora, Refrigerante e Suco para toda Família. Vai uma bebida para o Jogo?" ,
     img: "/temporary/bebidar.png",
     color: "blue",
   },
