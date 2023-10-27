@@ -201,9 +201,6 @@ export const featuredProducts: Products = [
   },
 ];
 
-
-
-
 export const pizzas: Products = [
   {
     id: 1,
@@ -249,9 +246,9 @@ export const pizzas: Products = [
   },
   {
     id: 3,
-    title: "Bella Napoli",
+    title: "Arroz Carreteiro",
     desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
-    img: "/temporary/p3.png",
+    img: "/temporary/ARROZ CARRETEIROO.jpg",
     price: 26.9,
     options: [
       {
@@ -270,9 +267,9 @@ export const pizzas: Products = [
   },
   {
     id: 4,
-    title: "Pesto Primavera",
+    title: "Feijão Tropeiro",
     desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
-    img: "/temporary/p10.png",
+    img: "/temporary/FEIJÃO TROPEIRO.jpg",
     price: 28.9,
     options: [
       {
@@ -291,9 +288,9 @@ export const pizzas: Products = [
   },
   {
     id: 5,
-    title: "Veggie Supreme",
+    title: "Macarronada",
     desc: "A classic Italian delight featuring a thin, crispy crust, tangy tomato sauce, fresh mozzarella, and a medley of aromatic herbs topped with lettuce, tomatoes, and a dollop of tangy mayo.",
-    img: "/temporary/p11.png",
+    img: "/temporary/MACARRONADA.jpg",
     price: 24.9,
     options: [
       {
@@ -312,9 +309,9 @@ export const pizzas: Products = [
   },
   {
     id: 6,
-    title: "Four Cheese Fantasy",
+    title: "Moqueca de Peixe",
     desc: "Experience pure cheesy bliss with a melty blend of mozzarella, cheddar, provolone, and Parmesan cheeses, creating a rich and indulgent pizza experience.",
-    img: "/temporary/p12.png",
+    img: "/temporary/MOQUECA DE PEIXE.jpg",
     price: 22.9,
     options: [
       {
