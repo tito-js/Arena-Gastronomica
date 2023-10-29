@@ -5,18 +5,18 @@ import React, { useEffect, useState } from "react";
 const data = [
   {
     id: 1,
-    title: "Bebidas Refrescantes Coquetel de Diversos sabores",
-    image: "/BEBIDAS.png",
+    title: "always fresh & always crispy & always hot",
+    image: "/slide1.png",
   },
   {
     id: 2,
-    title: "Bolo de Chocolate Favorito do nosso Vinicius JR  ",
-    image: "/Bolos.png",
+    title: "we deliver your order wherever you are in NY",
+    image: "/slide2.png",
   },
   {
     id: 3,
-    title: "Deliciosa Moqueca de Peixe, tradicional do Nordeste do nosso País. ",
-    image: "/Moqueca2.png",
+    title: "the best pizza to share with your family",
+    image: "/slide3.jpg",
   },
 ];
 
@@ -33,13 +33,13 @@ const Slider = () => {
   }, []);
 
   return (
-    <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] lg:flex-row bg-gray-100">
+    <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] lg:flex-row bg-fuchsia-50">
       {/* TEXT CONTAINER */}
-      <div className="flex-1 flex items-center justify-center flex-col gap-8 text-blue-500 font-bold">
+      <div className="flex-1 flex items-center justify-center flex-col gap-8 text-red-500 font-bold">
         <h1 className="text-5xl text-center uppercase p-4 md:p-10 md:text-6xl xl:text-7xl">
           {data[currentSlide].title}
         </h1>
-        <button className="bg-green-500 text-white py-4 px-8">Peça Agora</button>
+        <button className="bg-red-500 text-white py-4 px-8">Order Now</button>
       </div>
       {/* IMAGE CONTAINER */}
       <div className="w-full flex-1 relative">
