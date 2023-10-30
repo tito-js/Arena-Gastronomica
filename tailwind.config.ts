@@ -19,11 +19,5 @@ const config: Config = {
   },
   plugins: [],
 }
-<<<<<<< HEAD
 
 export default config
-=======
-export default config
-
-
->>>>>>> d13104061d5acc3825bb73a00fbd0db078cdbbce
