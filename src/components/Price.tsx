@@ -27,10 +27,10 @@ const Price = ({ price, id, options }: Props) => {
         {options?.map((option, index) => (
           <button
             key={option.title}
-            className="min-w-[6rem] p-2 ring-1 ring-red-400 rounded-md"
+            className="min-w-[6rem] p-2 ring-1 ring-blue-400 rounded-md"
             style={{
               background: selected === index ? "rgb(248 113 113)" : "white",
-              color: selected === index ? "white" : "red",
+              color: selected === index ? "white" : "blue",
             }}
             onClick={() => setSelected(index)}
           >
@@ -41,7 +41,7 @@ const Price = ({ price, id, options }: Props) => {
       {/* QUANTITY AND ADD BUTTON CONTAINER */}
       <div className="flex justify-between items-center">
         {/* QUANTITY */}
-        <div className="flex justify-between w-full p-3 ring-1 ring-red-500">
+        <div className="flex justify-between w-full p-3 ring-1 ring-blue-500">
           <span>Quantity</span>
           <div className="flex gap-4 items-center">
             <button
@@ -58,8 +58,8 @@ const Price = ({ price, id, options }: Props) => {
           </div>
         </div>
         {/* CART BUTTON */}
-        <button className="uppercase w-56 bg-red-500 text-white p-3 ring-1 ring-red-500">
-          Add to Cart
+        <button className="uppercase w-56 bg-green-500 text-white p-3 ring-1 ring-green-500">
+          Adicionar ao carrinho
         </button>
       </div>
     </div>

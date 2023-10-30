@@ -6,15 +6,15 @@ const OrdersPage = () => {
       <table className="w-full border-separate border-spacing-3">
         <thead>
           <tr className="text-left">
-            <th className="hidden md:block">Order ID</th>
-            <th>Date</th>
-            <th>Price</th>
-            <th className="hidden md:block">Products</th>
+            <th className="hidden md:block">Pedido ID</th>
+            <th>Data</th>
+            <th>Preço</th>
+            <th className="hidden md:block">Produtos</th>
             <th>Status</th>
           </tr>
         </thead>
         <tbody>
-          <tr className="text-sm md:text-base bg-red-50">
+          <tr className="text-sm md:text-base bg-blue-50">
             <td className="hidden md:block py-6 px-1">1237861238721</td>
             <td className="py-6 px-1">19.07.2023</td>
             <td className="py-6 px-1">89.90</td>

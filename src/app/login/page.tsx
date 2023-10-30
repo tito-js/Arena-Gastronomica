@@ -13,8 +13,8 @@ const LoginPage = () => {
         </div>
         {/* FORM CONTAINER */}
         <div className="p-10 flex flex-col gap-8 md:w-1/2">
-          <h1 className="font-bold text-xl xl:text-3xl">Welcome</h1>
-          <p>Log into your account or create a new one using social buttons</p>
+          <h1 className="font-bold text-xl xl:text-3xl">Bem - Vindo!</h1>
+          <p>Faça login em sua conta ou crie uma nova usando botões sociais</p>
           <button className="flex gap-4 p-4 ring-1 ring-orange-100 rounded-md">
             <Image
               src="/google.png"
@@ -23,7 +23,7 @@ const LoginPage = () => {
               height={20}
               className="object-contain"
             />
-            <span>Sign in with Google</span>
+            <span>Faça login com Google</span>
           </button>
           <button className="flex gap-4 p-4 ring-1 ring-blue-100 rounded-md">
             <Image
@@ -33,10 +33,10 @@ const LoginPage = () => {
               height={20}
               className="object-contain"
             />
-            <span>Sign in with Facebook</span>
+            <span>Faça login com o Facebook</span>
           </button>
           <p className="text-sm">
-            Have a problem?<Link className="underline" href="/"> Contact us</Link>
+            Teve algum problema?<Link className="underline" href="/"> Contate-nos</Link>
           </p>
         </div>
       </div>

@@ -13,7 +13,7 @@ const Offer = () => {
           of empowerment. Quickly pontificate parallel.
         </p>
         <CountDown/>
-        <button className="bg-red-500 text-white rounded-md py-3 px-6">Order Now</button>
+        <button className="bg-green-500 text-white rounded-md py-3 px-6">Order Now</button>
       </div>
       {/* IMAGE CONTAINER */}
       <div className="flex-1 w-full relative md:h-full">
