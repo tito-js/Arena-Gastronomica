@@ -40,7 +40,7 @@ const Featured = async () => {
               <p className="p-4 2xl:p-8">{item.desc}</p>
               <span className="text-xl font-bold">R${item.price}</span>
               <button className="bg-green-500 text-white p-2 rounded-md">
-                Adiciona ao carrinho
+                Adicionar ao carrinho
               </button>
             </div>
           </div>
