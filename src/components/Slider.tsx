@@ -5,17 +5,17 @@ import React, { useEffect, useState } from "react";
 const data = [
   {
     id: 1,
-    title: "always fresh & always crispy & always hot",
+    title: "Bebidas Refrescantes Coquetel de Diversos sabores",
     image: "/slide1.png",
   },
   {
     id: 2,
-    title: "we deliver your order wherever you are in NY",
+    title: "Bolo de Chocolate Favorito do nosso Vinicius JR  ",
     image: "/slide2.png",
   },
   {
     id: 3,
-    title: "the best pizza to share with your family",
+    title: "Deliciosa Moqueca de Peixe, tradicional do Nordeste do nosso País.",
     image: "/slide3.jpg",
   },
 ];

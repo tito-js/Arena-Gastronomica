@@ -26,7 +26,6 @@ model Product {
   createdAt DateTime @default(now())
   title String 
   desc String
-  color String
   img String?
   price Decimal
   isFeatured Boolean @default(false)
