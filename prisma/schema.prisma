@@ -46,7 +46,7 @@ model User {
   isAdmin       Boolean   @default(false)
   accounts      Account[]
   sessions      Session[]
-  order         Order[]
+  Order         Order[]
 }
 
 model VerificationToken {
