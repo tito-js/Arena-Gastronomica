@@ -25,7 +25,7 @@ export const PUT = async (
     } catch (err) {
       console.log(err);
       return new NextResponse(
-        JSON.stringify({ message: "Deu algo errado!" }),
+        JSON.stringify({ message: "Algo deu errado!" }),
         { status: 500 }
       );
     }

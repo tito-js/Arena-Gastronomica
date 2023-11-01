@@ -46,7 +46,8 @@ const Price = ({ product }: { product: ProductType }) => {
        <h2 className="text-2xl font-bold">R${total}</h2>
       {/* OPTIONS CONTAINER */}
       <div className="flex gap-4">
-        {product.options?.length && product.options?.map((option, index) => (
+      {product.options?.length &&
+          product.options?.map((option, index) => (
           <button
             key={option.title}
             className="min-w-[6rem] p-2 ring-1 ring-blue-400 rounded-md"
