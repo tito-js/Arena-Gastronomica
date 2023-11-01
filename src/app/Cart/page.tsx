@@ -1,5 +1,4 @@
 "use client";
-
 import { useCartStore } from "@/utils/store";
 import { useSession } from "next-auth/react";
 import Image from "next/image";
@@ -13,8 +12,31 @@ const CartPage = () => {
 
   useEffect(() => {
     useCartStore.persist.rehydrate();
-    
   }, []);
+
+  const handleCheckout = async () => {
+    if (!session) {
+      router.push("/login");
+    } else {
+      try {
+        const res = await fetch("http://localhost:3000/api/orders", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            price: totalPrice,
+            products,
+            status: "Não Pago!",
+            userEmail: session.user.email,
+          }),
+        });
+        const data =await res.json()
+        router.push(`/pay/${data.id}`)
+      } catch (err) {
+        console.log(err);
+      }
+    }
+  };
+
   return (
     <div className="h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] flex flex-col text-blue-500 lg:flex-row">
       {/* PRODUCTS CONTAINER */}
@@ -27,7 +49,7 @@ const CartPage = () => {
             )}
             <div className="">
               <h1 className="uppercase text-xl font-bold">
-                {item.title} X{item.quantity}
+                {item.title} x{item.quantity}
               </h1>
               <span>{item.optionTitle}</span>
             </div>
@@ -48,19 +70,22 @@ const CartPage = () => {
           <span className="">R${totalPrice}</span>
         </div>
         <div className="flex justify-between">
-          <span className="">Custo de serviço</span>
+          <span className="">Service Cost</span>
           <span className="">R$0.00</span>
         </div>
         <div className="flex justify-between">
-          <span className="">Custo de entrega</span>
-          <span className="text-green-500">GRATIS!</span>
+          <span className="">Custo de Entrega</span>
+          <span className="text-green-500">FREE!</span>
         </div>
         <hr className="my-2" />
         <div className="flex justify-between">
           <span className="">TOTAL(INCL. VAT)</span>
           <span className="font-bold">R${totalPrice}</span>
         </div>
-        <button className="bg-green-500 text-white p-3 rounded-md w-1/2 self-end">
+        <button
+          className="bg-green-500 text-white p-3 rounded-md w-1/2 self-end"
+          onClick={handleCheckout}
+        >
           CHECKOUT
         </button>
       </div>
