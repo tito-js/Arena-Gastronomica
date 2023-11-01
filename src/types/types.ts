@@ -8,7 +8,7 @@ export type MenuType = {
   }[];
 
 export type ProductType = {
-    id: number;
+    id: string;
     title: string;
     desc?: string;
     img?: string;
@@ -40,6 +40,7 @@ export type CartType = {
     totalItems: number;
     totalPrice: number;
 };
+  
   
 export type ActionTypes = {
     addToCart:(item:CartItemType)=> void;
