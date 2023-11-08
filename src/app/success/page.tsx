@@ -1,4 +1,5 @@
 "use client";
+
 import { useRouter, useSearchParams } from "next/navigation";
 import React, { useEffect } from "react";
 import ConfettiExplosion from "react-confetti-explosion";

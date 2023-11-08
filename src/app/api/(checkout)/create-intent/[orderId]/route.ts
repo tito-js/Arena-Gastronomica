@@ -37,7 +37,7 @@ export async function POST(
     );
   }
   return new NextResponse(
-    JSON.stringify({ message:"Order not found!" }),
+    JSON.stringify({ message:"Pedido não encontrado!" }),
     { status: 404 }
   );
 }
