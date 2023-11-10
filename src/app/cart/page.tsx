@@ -25,11 +25,11 @@ const CartPage = () => {
           body: JSON.stringify({
             price: totalPrice,
             products,
-            status: "Não Pago!",
+            status: "Pago!",
             userEmail: session.user.email,
           }),
         });
-        const data =await res.json()
+        const data = await res.json()
         router.push(`/pay/${data.id}`)
       } catch (err) {
         console.log(err);
@@ -49,7 +49,7 @@ const CartPage = () => {
             )}
             <div className="">
               <h1 className="uppercase text-xl font-bold">
-                {item.title} x{item.quantity}
+                {item.title} un {item.quantity}
               </h1>
               <span>{item.optionTitle}</span>
             </div>

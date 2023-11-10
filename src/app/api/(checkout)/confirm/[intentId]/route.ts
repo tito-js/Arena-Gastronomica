@@ -9,7 +9,7 @@ export const PUT = async ({ params }: { params: { intentId: string } }) => {
       where: {
         intent_id: intentId,
       },
-      data: { status: "Em preparo!" },
+      data: { status: "Pago!" },
     });
     return new NextResponse(
       JSON.stringify({ message: "O pedido foi atualizado!" }),
