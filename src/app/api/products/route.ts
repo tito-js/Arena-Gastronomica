@@ -1,8 +1,6 @@
 import { prisma } from "@/utils/connect";
 import { NextRequest, NextResponse } from "next/server"
 
-
-
 // PEGAR TODAS OS PRODUTOS
 export const GET = async (req:NextRequest) => {
 

@@ -46,17 +46,14 @@ arena-gastronomica/
 Exemplo: 
 
 ```
-POSTGRES_URL=""
-POSTGRES_PRISMA_URL=""
-POSTGRES_URL_NON_POOLING=""
-POSTGRES_USER=""
-POSTGRES_HOST=""
-POSTGRES_PASSWORD=""
-POSTGRES_DATABASE=""
+DATABASE_URL=""
 NEXTAUTH_SECRET=""
 GOOGLE_ID = 
-GOOGLE_SECRET =
+GOOGLE_SECRET = 
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY = 
+STRIPE_PRIVATE_KEY = 
 ```
+
 ## Deploy na Vercel
 1. **Configuração do Vercel**:
     - Crie uma conta na [﻿Vercel](https://vercel.com/)  e vincule seu repositório ao projeto.

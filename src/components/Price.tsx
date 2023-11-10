@@ -43,7 +43,7 @@ const Price = ({ product }: { product: ProductType }) => {
   return (
     <div className="flex flex-col gap-4">
        <h2 className="text-2xl font-bold">R${total}</h2>
-      {/* OPTIONS CONTAINER */}
+      {/* OPÇÕES CONTAINER */}
       <div className="flex gap-4">
       {product.options?.length &&
           product.options?.map((option, index) => (
