@@ -22,6 +22,8 @@ export const GET = async (req:NextRequest) => {
       );
     }
   };
+
+// CRIAR PRODUTO
 export const POST = async (req: NextRequest) => {
     try {
       const body = await req.json();
@@ -32,7 +34,7 @@ export const POST = async (req: NextRequest) => {
     } catch (err) {
       console.log(err);
       return new NextResponse(
-        JSON.stringify({ message: "Something went wrong!" }),
+        JSON.stringify({ message: "Algo deu errado!" }),
         { status: 500 }
       );
     }
