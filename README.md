@@ -1,77 +1,60 @@
+# Arena Gastronômica - Aplicação Web Full-Stack
+
+Bem-vindo à Arena Gastronômica, uma aplicação web full-stack desenvolvida utilizando TypeScript e diversas tecnologias populares para criar uma experiência digital única para um restaurante fictício.
+
 ## Visão Geral
-A Arena Gastronômica é uma aplicação web full-stack para um restaurante fictício. Ela foi desenvolvida utilizando TypeScript e JavaScript, faz uso de várias tecnologias populares, incluindo Next.js, React, Prisma, PostgreSQL, Stripe, NextAuth.js com autenticação via Google, e Tailwind CSS. A aplicação está hospedada na plataforma de hospedagem Vercel.
+
+A Arena Gastronômica é uma aplicação web full-stack que permite aos clientes explorar o menu, fazer pedidos online, efetuar pagamentos via Stripe, e desfrutar de uma experiência gastronômica de alta qualidade. Além disso, os funcionários do restaurante têm acesso a um painel administrativo para gerenciar pedidos e atualizar o menu.
 
 ## Tecnologias Utilizadas
-- **Frontend**:
-    - [﻿Next.js](https://nextjs.org/) 
-    - [﻿React](https://reactjs.org/) 
-    - [﻿Tailwind CSS](https://tailwindcss.com/) 
-- **Backend**:
-    - [﻿NextAuth.js](https://next-auth.js.org/) 
-    - [﻿Prisma](https://prisma.io/) 
-    - [﻿PostgreSQL](https://www.postgresql.org/) 
-- **Pagamentos**:
-    - [﻿Stripe](https://stripe.com/) 
-- **Hospedagem**:
-    - [﻿Vercel](https://vercel.com/) 
-## Estrutura do Projeto
-```
-arena-gastronomica/
-|-- src/
-|   |-- components/
-|   |-- auth/
-|   |-- api/
-|   |-- utils/
-|-- public/
-|-- prisma/
-|-- vercel.json
-|-- README.md
-```
-- `*src/*` : Contém todos os arquivos da aplicação.
-- `*api/*` : Contém todas as rotas da API.
-- `*utils/*` : Utilitários e funções auxiliares.
-- `*prisma/*` : Definições de modelo e configuração do Prisma.
-- `*public/*` : Contém arquivos estáticos como imagens e fontes.
-- `*vercel.json*` : Configurações específicas para a implantação na Vercel.
-- `*README.md*` : Esta documentação.
 
-## Configuração Local
-1. **Clonando o Repositório**: `git clone https://github.com/tito-js/arena-gastronomica.git` 
-2. **Instalando Dependências**: `cd arena-gastronomica`
+A aplicação faz uso de várias tecnologias modernas para proporcionar uma experiência eficiente e agradável:
 
-3. **Configurando o Banco de Dados**:
-    - Instale e configure o PostgreSQL. Crie um banco de dados chamado `arena_gastronomica` 
-4. **Configurando as Variáveis de Ambiente**:
-    - Crie um arquivo `.env`  na pasta do projeto e adicione as variáveis de ambiente necessárias. 
-Exemplo: 
+- **Next.js e React:** Utilizando Next.js como framework React, a aplicação oferece renderização do lado do servidor (SSR), proporcionando uma navegação rápida e eficiente.
 
-```
-DATABASE_URL=""
-NEXTAUTH_SECRET=""
-GOOGLE_ID = 
-GOOGLE_SECRET = 
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY = 
-STRIPE_PRIVATE_KEY = 
-```
+- **Prisma e PostgreSQL:** Para gerenciar o banco de dados, a Arena Gastronômica utiliza o Prisma com um banco de dados PostgreSQL, garantindo uma manipulação segura e eficiente dos dados.
 
-## Deploy na Vercel
-1. **Configuração do Vercel**:
-    - Crie uma conta na [﻿Vercel](https://vercel.com/)  e vincule seu repositório ao projeto.
-2. **Configuração das Variáveis de Ambiente na Vercel**:
-    - No painel da Vercel, vá para "Settings" > "Environment Variables" e adicione as variáveis de ambiente correspondentes.
-3. **Deploy Automático**:
-    - Qualquer push no branch principal (geralmente `main` ) automaticamente acionará um novo deploy na Vercel.
-## Funcionalidades
-- **Autenticação**:
-    - Os clientes podem se autenticar usando o Google com o NextAuth.js.
-- **Pedidos e Pagamentos**:
-    - Os clientes podem fazer pedidos e efetuar pagamentos usando o Stripe.
-- **Gestão do Menu**:
-    - Os administradores podem adicionar, editar e excluir itens do menu.
-- **Gestão de Pedidos**:
-    - Os administradores podem visualizar e gerenciar os pedidos recebidos.
-- **Gestão de Usuários**:
-    - Os administradores podem visualizar e gerenciar usuários registrados.
+- **Docker:** A aplicação é containerizada usando Docker, permitindo uma fácil implantação e gerenciamento de ambientes.
+
+- **Stripe:** Integração com a plataforma de pagamento Stripe para permitir transações seguras e confiáveis.
+
+- **NextAuth.js:** Implementação de autenticação utilizando NextAuth.js, garantindo um processo seguro e intuitivo de login.
+
+- **imBB:** Biblioteca para lidar com imagens, proporcionando uma experiência visual atraente.
+
+- **Tailwind CSS:** Framework de estilo que facilita a criação de interfaces modernas e responsivas.
+
+## Como Executar o Projeto Localmente
+
+Siga os passos abaixo para executar a Arena Gastronômica em sua máquina local:
+
+1. **Clone o Repositório:**
+   ```bash
+   git clone https://github.com/seu-usuario/arena-gastronomica.git
+   cd arena-gastronomica
+   ```
+
+2. **Instale as Dependências:**
+   ```bash
+   npm install
+   ```
+
+3. **Configure as Variáveis de Ambiente:**
+   Crie um arquivo `.env.local` na raiz do projeto e configure as variáveis de ambiente necessárias, incluindo as chaves de API do Stripe e outras informações sensíveis.
+
+4. **Execute o Aplicativo:**
+   ```bash
+   npm run dev
+   ```
+
+5. **Acesse o Aplicativo:**
+   Abra seu navegador e acesse `http://localhost:3000` para visualizar a Arena Gastronômica em ação.
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas, enviar solicitações de pull ou fornecer feedback sobre a Arena Gastronômica.
+
+Aproveite a experiência gastronômica digital proporcionada pela Arena Gastronômica! Bon appétit! 🍽️
+
 ## Licença
 Este projeto está sob a licença  [﻿MIT](https://github.com/tito-js/Arena-Gastronomica/blob/main/LICENSE) 
-
