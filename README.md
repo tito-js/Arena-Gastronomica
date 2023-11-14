@@ -30,8 +30,8 @@ Siga os passos abaixo para executar a Arena Gastronômica em sua máquina local:
 
 1. **Clone o Repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/arena-gastronomica.git
-   cd arena-gastronomica
+   git clone https://github.com/tito-js/Arena-Gastronomica.git
+   cd Arena-Gastronomica
    ```
 
 2. **Instale as Dependências:**
