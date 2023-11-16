@@ -12,7 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Arena Gastronomica",
+  title: "Arena Gastronômica",
   description: "O melhor restaurante do brasil.",
 };
 
