@@ -23,11 +23,10 @@ const Offer = () => {
           of empowerment. Quickly pontificate parallel.
         </p>
         <CountDown/>
-        <button className="bg-green-500 text-white rounded-md py-3 px-6" onClick={handleClick}>Order Now</button>
+        <button className="bg-green-500 text-white rounded-md py-3 px-6" onClick={handleClick}>Pedir Agora</button>
       </div>
       {/* IMAGE CONTAINER */}
       <div className="flex-1 w-full relative md:h-full">
-        <Image src="/offerProduct.png" alt="" fill className="object-contain" />
       </div>
     </div>
   );

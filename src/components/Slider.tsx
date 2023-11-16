@@ -17,7 +17,7 @@ const data = [
   {
     id: 3,
     title: "Deliciosa Moqueca de Peixe, tradicional do Nordeste do nosso País.",
-    image: "/slide3.jpg",
+    image: "/slide3.png",
   },
 ];
 

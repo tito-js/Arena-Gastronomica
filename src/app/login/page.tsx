@@ -25,7 +25,7 @@ const LoginPage = () => {
         </div>
         {/* FORM CONTAINER */}
         <div className="p-10 flex flex-col gap-8 md:w-1/2">
-          <h1 className="font-bold text-xl xl:text-3xl">Bem - Vindo!</h1>
+          <h1 className="font-bold text-xl xl:text-3xl">Bem-Vindo!</h1>
           <p>Faça login em sua conta ou crie uma nova usando botões sociais</p>
           <button className="flex gap-4 p-4 ring-1 ring-orange-100 rounded-md"  onClick={() => signIn("google")}>
             <Image
