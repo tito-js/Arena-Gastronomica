@@ -86,7 +86,7 @@ const CartPage = () => {
           className="bg-green-500 text-white p-3 rounded-md w-1/2 self-end"
           onClick={handleCheckout}
         >
-          CHECKOUT
+          PAGAR
         </button>
       </div>
     </div>
